@@ -1,5 +1,5 @@
-const CACHE = 'insp-shell-1790510401403'
-const ASSETS = ["/jeongmil/assets/index-ClDmhnV7.js","/jeongmil/assets/index-yesx5H2w.css","/jeongmil/assets/xlsx-CNerDvZX.js","/jeongmil/index.html","/jeongmil/manifest.webmanifest"]
+const CACHE = 'insp-shell-1790511565145'
+const ASSETS = ["/jeongmil/assets/index-C9XF6WIJ.js","/jeongmil/assets/index-yesx5H2w.css","/jeongmil/assets/xlsx-CNerDvZX.js","/jeongmil/index.html","/jeongmil/manifest.webmanifest"]
 const INDEX = "/jeongmil/index.html"
 const ROOT = "/jeongmil/"
 
