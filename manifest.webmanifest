@@ -1,0 +1,11 @@
+{
+  "name": "정밀점검",
+  "short_name": "정밀점검",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3efe6",
+  "theme_color": "#f3efe6",
+  "lang": "ko"
+}
