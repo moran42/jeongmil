@@ -1,5 +1,5 @@
-const CACHE = 'insp-shell-1790484068697'
-const ASSETS = ["/jeongmil/assets/index-62e14BmU.js","/jeongmil/assets/index-DgBw2Q3Z.css","/jeongmil/assets/xlsx-CNerDvZX.js","/jeongmil/index.html","/jeongmil/manifest.webmanifest"]
+const CACHE = 'insp-shell-1790501243972'
+const ASSETS = ["/jeongmil/assets/index-BpY5HHLZ.js","/jeongmil/assets/index-C18fjofa.css","/jeongmil/assets/xlsx-CNerDvZX.js","/jeongmil/index.html","/jeongmil/manifest.webmanifest"]
 const INDEX = "/jeongmil/index.html"
 const ROOT = "/jeongmil/"
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', (event) => {
     const documentRequest = request.mode === 'navigate' || url.pathname.endsWith('/index.html')
     if (documentRequest) {
       try {
-        const fresh = await fetch(request)
+        const fresh = await fetch(request, { cache: 'no-store' })
         if (fresh.ok) await cache.put(INDEX, fresh.clone())
         return fresh
       } catch {
